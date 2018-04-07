@@ -1,5 +1,4 @@
 # HoneyPots
-# HoneyPots
 
 
 1) Ubuntu - Dionaea with HTTP
@@ -8,7 +7,7 @@ mhn-honeypot-1  us-central1-c  f1-micro                   10.128.0.2   35.188.62
 wget "http://35.184.54.18/api/script/?text=true&script_id=4" -O deploy.sh && sudo bash deploy.sh http://35.184.54.18 9lEvuK62
 Used NMAP, found openings.
 Discovered scans from others across globe.
-(https://imgur.com/4RsWcq9)
+(https://imgur.com/4RsWcq9.png)
 
 2) Ubuntu - Wordpot
 NAME            ZONE           MACHINE_TYPE  PREEMPTIBLE  INTERNAL_IP  EXTERNAL_IP     STATUS
