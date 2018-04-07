@@ -7,7 +7,7 @@ mhn-honeypot-1  us-central1-c  f1-micro                   10.128.0.2   35.188.62
 wget "http://35.184.54.18/api/script/?text=true&script_id=4" -O deploy.sh && sudo bash deploy.sh http://35.184.54.18 9lEvuK62
 Used NMAP, found openings.
 Discovered scans from others across globe.
-[!alt text](https://imgur.com/4RsWcq9.png "")
+![milestone5](https://user-images.githubusercontent.com/11879733/38450243-67827710-39cf-11e8-92e1-a04ebee8fee9.jpg)
 
 2) Ubuntu - Wordpot
 NAME            ZONE           MACHINE_TYPE  PREEMPTIBLE  INTERNAL_IP  EXTERNAL_IP     STATUS
@@ -15,6 +15,7 @@ mhn-honeypot-2  us-central1-c  f1-micro                   10.128.0.4   35.192.18
 wget "http://35.184.54.18/api/script/?text=true&script_id=17" -O deploy.sh && sudo bash deploy.sh http://35.184.54.18 9lEvuK62
 Unable to access wordpress page.
 Wordpot was not showing any processes for listening. Used Nikto and was able to detect other information:
+![wordpotissue](https://user-images.githubusercontent.com/11879733/38450246-6f68439c-39cf-11e8-95db-9535eacbde72.jpg)
 
 + Server: Apache/2.2.22 (Ubuntu)
 + The anti-clickjacking X-Frame-Options header is not present.
@@ -32,13 +33,14 @@ NAME            ZONE           MACHINE_TYPE  PREEMPTIBLE  INTERNAL_IP  EXTERNAL_
 mhn-honeypot-3  us-central1-c  f1-micro                   10.128.0.5   35.188.34.13  RUNNING
 wget "http://35.184.54.18/api/script/?text=true&script_id=13" -O deploy.sh && sudo bash deploy.sh http://35.184.54.18 9lEvuK62
 Unable to detect nmap scan. Host was not detected with Nikto.
+![suricata](https://user-images.githubusercontent.com/11879733/38450250-79240696-39cf-11e8-8312-04d9063dd270.jpg)
 
 4) Glastopf
 NAME            ZONE           MACHINE_TYPE  PREEMPTIBLE  INTERNAL_IP  EXTERNAL_IP     STATUS
 mhn-honeypot-4  us-central1-c  f1-micro                   10.128.0.6   35.192.189.158  RUNNING
 wget "http://35.184.54.18/api/script/?text=true&script_id=8" -O deploy.sh && sudo bash deploy.sh http://35.184.54.18 9lEvuK62
 Used NMAP, was silent. Used Nikto and was noisy.
-
+![glastpof](https://user-images.githubusercontent.com/11879733/38450253-7bfc180e-39cf-11e8-8feb-d1ec5d9d944b.jpg)
 
 5)Elastic Honey
 NAME            ZONE           MACHINE_TYPE  PREEMPTIBLE  INTERNAL_IP  EXTERNAL_IP    STATUS
